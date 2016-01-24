@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Moshine.Web.MVC", "Moshine.Web.MVC\Moshine.Web.MVC.oxygene", "{E0318617-B791-4A03-9E9D-AC71B0CF25E1}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "TestMVCApplication", "TestMVCApplication\TestMVCApplication.oxygene", "{B4B34F32-8C82-48B6-BD89-90F4A7277313}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "jQuery.UI.Grid", "jQuery.UI.Grid\jQuery.UI.Grid.oxygene", "{4B6B331D-6902-4AB2-A002-E8F824D7C275}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Moshine.Web", "Moshine.Web\Moshine.Web.oxygene", "{C3800A1D-F47D-4554-AC0A-D000EE68474F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0318617-B791-4A03-9E9D-AC71B0CF25E1}.Debug|Default.ActiveCfg = Debug
+		{E0318617-B791-4A03-9E9D-AC71B0CF25E1}.Debug|Default.Build.0 = Debug
+		{E0318617-B791-4A03-9E9D-AC71B0CF25E1}.Release|Default.ActiveCfg = Release
+		{E0318617-B791-4A03-9E9D-AC71B0CF25E1}.Release|Default.Build.0 = Release
+		{B4B34F32-8C82-48B6-BD89-90F4A7277313}.Debug|Default.ActiveCfg = Debug
+		{B4B34F32-8C82-48B6-BD89-90F4A7277313}.Debug|Default.Build.0 = Debug
+		{B4B34F32-8C82-48B6-BD89-90F4A7277313}.Release|Default.ActiveCfg = Release
+		{B4B34F32-8C82-48B6-BD89-90F4A7277313}.Release|Default.Build.0 = Release
+		{4B6B331D-6902-4AB2-A002-E8F824D7C275}.Debug|Default.ActiveCfg = Debug
+		{4B6B331D-6902-4AB2-A002-E8F824D7C275}.Debug|Default.Build.0 = Debug
+		{4B6B331D-6902-4AB2-A002-E8F824D7C275}.Release|Default.ActiveCfg = Release
+		{4B6B331D-6902-4AB2-A002-E8F824D7C275}.Release|Default.Build.0 = Release
+		{C3800A1D-F47D-4554-AC0A-D000EE68474F}.Debug|Default.ActiveCfg = Debug
+		{C3800A1D-F47D-4554-AC0A-D000EE68474F}.Debug|Default.Build.0 = Debug
+		{C3800A1D-F47D-4554-AC0A-D000EE68474F}.Release|Default.ActiveCfg = Release
+		{C3800A1D-F47D-4554-AC0A-D000EE68474F}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
