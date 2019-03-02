@@ -13,7 +13,7 @@ uses
   System.Net,
   System.Text,
   System.Threading.Tasks,
-  System.Web.Mvc;
+  Microsoft.AspNetCore.Mvc;
 
 type
 
@@ -23,7 +23,7 @@ type
     var _innerResult: ActionResult;
   public
     constructor(responseToRelay: HttpWebResponse);
-    method ExecuteResult(context: ControllerContext); override; 
+    method ExecuteResult(context: ActionContext); override;
   end;
 
 implementation
@@ -59,7 +59,7 @@ begin
   end;
 end;
 
-method HttpWebResponseResult.ExecuteResult(context: ControllerContext);
+method HttpWebResponseResult.ExecuteResult(context: ActionContext);
 begin
   var clientResponse := context.HttpContext.Response;
   clientResponse.StatusCode := Integer(_response.StatusCode);
@@ -72,7 +72,7 @@ begin
       'Content-Encoding': begin
         end;
       else begin
-        clientResponse.AddHeader(headerKey, _response.Headers[headerKey]);
+        //clientResponse.AddHeader(headerKey, _response.Headers[headerKey]);
       end;
     end;
   end;
